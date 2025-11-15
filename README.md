@@ -1,17 +1,17 @@
-# 📚 Goodreads Data Project
+# Goodreads Data Engineering
 
-This repository contains multiple projects showcasing **data engineering workflows** and analysis using Goodreads book data.  
-<br/>
-It includes ETL pipelines, Pandas analysis, and SQL analysis to demonstrate end-to-end data handling, cleaning, transformation, and insights extraction.
+This repository contains multiple projects showcasing data engineering workflows and analysis using Goodreads book data.  
 
+It demonstrates complete end-to-end data handling, cleaning, transformation, modelling analytics layer using dbt, answering business questions with SQL, and generating insights through Python & Pandas.
 
-##  Project Overview
+##  Overview
 
-- **Dataset**: Goodreads Books Dataset (`books.xlsx` or `books.csv`)
+- **Dataset**: Goodreads Books Dataset (`books.csv`)
 - **Tools**:
   - Python, Pandas
   - MySQL, MySQL Workbench
   - Apache Airflow (Docker)
+  - dbt
 
 ##  Database Schema
 
@@ -45,6 +45,11 @@ Refer [README.md](https://github.com/diablo010/goodreads-etl-pipeline/blob/main/
 A production-style version using Apache Airflow inside Docker to orchestrate the workflow.
 
 Refer [README.md](https://github.com/diablo010/goodreads-etl-pipeline/blob/main/ETL/airflow-version/README.md) from `airflow-version` folder.
+
+## dbt
+A structured analytics engineering layer built using dbt.
+
+Refer [README.md](https://github.com/diablo010/goodreads-etl-pipeline/blob/main/books_dbt/README.md) from `books_dbt` folder.
 
 ## Analysis
 

@@ -1,0 +1,16 @@
+
+name: 'books_dbt'
+version: '1.0.0'
+profile: 'books_dbt'
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+
+seeds:
+  books_dbt:
+    cleaned_books:
+      +column_types:
+        isbn: text  # explicitly declare the datatypes as text
+        isbn13: text  # dbt auto-detected isbn as integer
+

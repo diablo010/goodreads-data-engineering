@@ -1,0 +1,7 @@
+version: 2
+
+models:
+  - name: books_data
+    columns:
+      - name: bookID
+        tests: [not_null]
